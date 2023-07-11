@@ -2,8 +2,8 @@ INSERT INTO department (name) VALUES
   ('Management'),
   ('Sales'),
   ('Warehouse'),
-  ('Human Resources');
-  ('Administration');
+  ('Human Resources'),
+  ('Administration'),
   ('Accounting');
 
 INSERT INTO role (title, salary, department_id) VALUES
