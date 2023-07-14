@@ -4,10 +4,9 @@ const inquirer = require('inquirer');
 // Create MySQL connection
 const connection = mysql.createConnection({
   host: 'localhost',
-  port: 3306,
   user: 'root',
-  password: 'your_mysql_password',
-  database: 'employee_tracker_db',
+  password: 'W@uk3sh@!',
+  database: 'employee_tracker',
 });
 
 // Connect to the database

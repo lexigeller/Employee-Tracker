@@ -1,3 +1,5 @@
+USE employee_tracker;
+
 INSERT INTO department (name) VALUES
   ('Management'),
   ('Sales'),
@@ -18,13 +20,13 @@ INSERT INTO role (title, salary, department_id) VALUES
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES
   ('Michael', 'Scott', 1, NULL),
-  ('Dwight', 'Schrute', 2, 1),
-  ('Jim', 'Halpert', 3, 2),
-  ('Pam', 'Beesley', 4, 3),
+  ('Dwight', 'Schrute', 2, NULL),
+  ('Jim', 'Halpert', 3, NULL),
+  ('Pam', 'Beesley', 4, NULL),
   ('Darryl', 'Philbin', 5, NULL),
-  ('Phyllis', 'Vance', 6, 5),
-  ('Stanley', 'Hudson', 7, 5),
-  ('Oscar', 'Martinez', 8, 7),
-  ('Angela', 'Martin', 9, 7),
-  ('Kevin', 'Malone', 10, 7),
+  ('Phyllis', 'Vance', 6, NULL),
+  ('Stanley', 'Hudson', 7, NULL),
+  ('Oscar', 'Martinez', 8, NULL),
+  ('Angela', 'Martin', 9, NULL),
+  ('Kevin', 'Malone', 10, NULL),
   ('Toby', 'Flenderson', 11, NULL);
